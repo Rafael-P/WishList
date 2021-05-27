@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.icons_head{
+    width: 223px;
+    height: 54px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.logon{
+    width: 243px;
+    height: 40px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.logon a{
+    color: #A292B3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top{
+    width: 1216px;
+    height: 166px;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.line1{
+    width: 1236.03px;
+    height: 0px;
+    left: 101.98px;
+    top: 166.5px;
+    background-color: #B07AEA;
+
+    border: 1px solid #B07AEA;
+}
+
+.menu{
+    width: 480px;
+    height: auto;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.menu a{
+    color: #4D3566;
+}
+
+.camp{
+    width: 385px;
+    height: 40px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    padding-left: 30px;
+    background-color: #F3F3F3;
+}
+
+.navbar{
+    width: 1216px;
+    height: 128px;
+    /* background-color: lime; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    width: 1481px;
+    height: 294px;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+/*================ FIM DO HEADER ================*/
+
+.banner{
+    width: 1481px;
+    display: flex;
+    justify-content: center;
+}
+/*================ FIM DO BANNER ================*/
+
+.sobre{
+    width: 954px;
+    height: 549px;
+    /* background-color: lime; */
+    align-content: space-around;
+    margin-left: 0.7%;
+    margin-bottom: 10%;
+}
+
+.margem{
+    margin-top: 40px;
+}
+
+.pessoa{
+    width: 400px;
+    height: 84px;
+    /* background-color: magenta; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre h1{
+    width: 345px;
+    height: 59px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-size: 48px;
+    color: #4D3566;
+}
+
+.sobre h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #A292B3;
+}
+
+.line2{
+    width: 224px;
+    height: 0px;
+    background-color: #B07AEA;
+
+    border: 1px solid #B07AEA;
+}
+
+.sobre p{
+    width: 954px;
+    height: 318px;
+    /* background-color: mediumaquamarine; */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5D5466;
+}
+
+.esquerda{
+    margin-left: 16%;
+}
+
+/*================ FIM DO SOBRE ================*/
+
+.desejos{
+    width: 1481px;
+    height: 1406px;
+    background-color: #D0BCE6;
+}
+
+.conteudo{
+    width: 1196px;
+    height: 1178px;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.desejos h1{
+    height: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: white;
+}
+
+.dados{
+    width: 1196px;
+    height: 464px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info{
+    width: 345px;
+    height: 404px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5D5466;
+}
+
+.campos{
+    width: 345px;
+    height: 48px;
+    background: #F3F3F3;
+    padding-left: 10px;
+}
+
+.btn{
+    width: 224px;
+    height: 64px;
+    background: #4D3566;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #D0BCE6;
+}
+
+.line3{
+    width: 994.01px;
+    height: 0px;
+    background-color: #B07AEA;
+    border: 1px solid #B07AEA;
+    margin-left: 9%;
+}
+
+.tabela{
+    width: 306px;
+    height: 333px;
+    background-color: #D0BCE6;
+    margin-left: 10.9%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tabela h2{
+    width: 306px;
+    height: 41px;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tabela h3{
+    width: 306px;
+    height: 60px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tabela p{
+    width: 260px;
+    height: 162px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
